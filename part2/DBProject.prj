@@ -1,0 +1,61 @@
+PL/SQL Developer Project
+
+[Options]
+AutoConnect=0
+Username=
+Password=2469
+Database=
+ConnectAs=
+Edition=
+Workspace=
+HaltAfterError=0
+BrowseHistory=0
+FileBrowser=0
+BeautfierRulesFile=
+VersionControl=0
+VersionControlPath=
+ShowItems=-1
+
+[History]
+Programs=
+SQL Scripts=C:\Tehila\dbproject\part2
+Report Files=
+Test Scripts=
+Command Scripts=
+Diagram Files=
+
+[BrowserFolders]
+
+
+[Groups]
+backup=12,13,14,15,16,17,18,19,20,
+part2=5,6,7,8,9,10,11,21,22,23,
+part1=0,1,2,3,4,
+
+[Files]
+1,0,,,part1\createTables.sql
+1,0,,,part1\insertEachTable.sql
+1,0,,,part1\Queries.sql
+4,4,,,part1\uses sql script.sql
+4,4,,,part1\visits sql script.sql
+4,4,,,part2\alltables-humanResource.sql
+1,0,,,part2\alter tables.sql
+1,0,,,part2\create_table_fixed.sql
+1,0,,,part2\create_tables.sql
+1,0,,,part2\create_user.sql
+1,0,,,part2\FixedQueries.sql
+1,0,,,part2\views.sql
+4,4,,,backup_files\equipment_backup.sql
+4,4,,,backup_files\hstaff_backup.sql
+4,4,,,backup_files\medicalRecord_backup.sql
+4,4,,,backup_files\patient_backup.sql
+4,4,,,backup_files\person_backup.sql
+4,4,,,backup_files\treats_backup.sql
+4,4,,,backup_files\uses_backup.sql
+4,4,,,backup_files\visits_backup.sql
+4,4,,,backup_files\volunteers_backup.sql
+1,0,,,part2\indexes.sql
+1,0,,,part2\HRhospitalSQLfiles\HRhospitalSQLfiles\queries.sql
+1,0,,,part2\grantAndSelect.sql
+
+[Notes]

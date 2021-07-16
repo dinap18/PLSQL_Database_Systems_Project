@@ -1,0 +1,1029 @@
+<HTML>
+<HEAD>
+ <TITLE>select w.department, p.pos ...</TITLE>
+ <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <META name="GENERATOR" content="PL/SQL Developer 14.0.5.1986">
+ <META name="SERIAL" content="01.132677">
+ <META name="ORACLE" content="Oracle Database 18c Express Edition Release 18.0.0.0.0 ">
+<STYLE type="text/css">
+ table.tabular_
+ {
+  Color: #000000;
+  Border-style: None;
+  Width: 100%;
+ }
+ table.form_
+ {
+  Color: #000000;
+  Border-style: None;
+ }
+ table.title_, td.title_
+ {
+  Background: #000050;
+  Color: #FFFF00;
+  Font-family: "Arial Black";
+  Font-size: 12pt;
+  Font-style: Italic;
+  Text-align: Center;
+  Width: 100%;
+ }
+ table.variables_, td.variables_
+ {
+  Background: #F0F0F0;
+  Color: #000000;
+  Border-style: None;
+  Font-size: 8pt;
+  Font-weight: Bold;
+ }
+ td
+ {
+  Background: #F4F4F4;
+  Color: #000000;
+ }
+ th
+ {
+  Background: #E0E0E0;
+  Color: #000000;
+ }
+ p.pagebreak_
+ {
+  page-break-before: always;
+ }
+ td.blue-title, th.blue-title
+ {
+  Background: #000050;
+  Color: #FFFF00;
+  Font-family: "Arial Black";
+  Font-size: 12pt;
+  Font-style: Italic;
+  Text-align: Center;
+  Width: 100%;
+ }
+</STYLE>
+</HEAD>
+
+<BODY bgColor=#FFFFFF leftmargin=0 topmargin=0>
+<TABLE class="title_">
+ <TR>
+  <TD class="title_">Staff</TD>
+ </TR>
+</TABLE>
+<TABLE class="tabular_">
+ <TR>
+  <TH align="center">Department</TH>
+  <TH align="center">Position</TH>
+  <TH align="center">Amount of staff</TH>
+ </TR>
+ <TR>
+  <TD align="center">Administration</TD>
+  <TD align="center">&nbsp;Chef</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Housewife</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;LaboratoryWorker</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Manager</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Pharmacist</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Receptionist</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Researcher</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Stockkeeper</TD>
+  <TD align="center">4</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">AdminSecretary</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Cleaner</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternDoctor</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternNurse</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">MedicalSecretary</TD>
+  <TD align="center">4</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Midwife</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Nurse</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Security</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">SocialWorker</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Technician</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"><HR></TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD align="center">38</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TH align="center">Department</TH>
+  <TH align="center">Position</TH>
+  <TH align="center">Amount of staff</TH>
+ </TR>
+ <TR>
+  <TD align="center">Cardiology</TD>
+  <TD align="center">&nbsp;Chef</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Dietologist</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Housewife</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;LaboratoryWorker</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Manager</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Pharmacist</TD>
+  <TD align="center">5</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Researcher</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Stockkeeper</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;VolunterCoordinator</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">AdminSecretary</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Cleaner</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Doctor</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternNurse</TD>
+  <TD align="center">4</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">MedicalSecretary</TD>
+  <TD align="center">4</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Midwife</TD>
+  <TD align="center">6</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Security</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">SocialWorker</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Technician</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"><HR></TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD align="center">46</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TH align="center">Department</TH>
+  <TH align="center">Position</TH>
+  <TH align="center">Amount of staff</TH>
+ </TR>
+ <TR>
+  <TD align="center">Corona</TD>
+  <TD align="center">Doctor</TD>
+  <TD align="center">76</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternDoctor</TD>
+  <TD align="center">36</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternNurse</TD>
+  <TD align="center">52</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Nurse</TD>
+  <TD align="center">35</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"><HR></TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD align="center">199</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TH align="center">Department</TH>
+  <TH align="center">Position</TH>
+  <TH align="center">Amount of staff</TH>
+ </TR>
+ <TR>
+  <TD align="center">Delivery</TD>
+  <TD align="center">&nbsp;Chef</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Dietologist</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Housewife</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;LaboratoryWorker</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Manager</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Pharmacist</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Receptionist</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Researcher</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Stockkeeper</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;VolunterCoordinator</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">AdminSecretary</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Cleaner</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternDoctor</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternNurse</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">MedicalSecretary</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Midwife</TD>
+  <TD align="center">4</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Nurse</TD>
+  <TD align="center">4</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Security</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Technician</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"><HR></TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD align="center">40</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TH align="center">Department</TH>
+  <TH align="center">Position</TH>
+  <TH align="center">Amount of staff</TH>
+ </TR>
+ <TR>
+  <TD align="center">First aid</TD>
+  <TD align="center">&nbsp;Chef</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;LaboratoryWorker</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Manager</TD>
+  <TD align="center">4</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Receptionist</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Researcher</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Stockkeeper</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;VolunterCoordinator</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">AdminSecretary</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Doctor</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternNurse</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Midwife</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Nurse</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Security</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"><HR></TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD align="center">30</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TH align="center">Department</TH>
+  <TH align="center">Position</TH>
+  <TH align="center">Amount of staff</TH>
+ </TR>
+ <TR>
+  <TD align="center">Gastroenterology</TD>
+  <TD align="center">&nbsp;Chef</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Dietologist</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Manager</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Receptionist</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Stockkeeper</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternNurse</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">MedicalSecretary</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Midwife</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Security</TD>
+  <TD align="center">4</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">SocialWorker</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Technician</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"><HR></TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD align="center">19</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TH align="center">Department</TH>
+  <TH align="center">Position</TH>
+  <TH align="center">Amount of staff</TH>
+ </TR>
+ <TR>
+  <TD align="center">Gastroentherology</TD>
+  <TD align="center">&nbsp;LaboratoryWorker</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Pharmacist</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Researcher</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Stockkeeper</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">AdminSecretary</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Cleaner</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternNurse</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Midwife</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Security</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"><HR></TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD align="center">13</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TH align="center">Department</TH>
+  <TH align="center">Position</TH>
+  <TH align="center">Amount of staff</TH>
+ </TR>
+ <TR>
+  <TD align="center">Neurology</TD>
+  <TD align="center">&nbsp;Chef</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Dietologist</TD>
+  <TD align="center">5</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Housewife</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;LaboratoryWorker</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Manager</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Pharmacist</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Receptionist</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Researcher</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Stockkeeper</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;VolunterCoordinator</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">AdminSecretary</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Cleaner</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Doctor</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternDoctor</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternNurse</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">MedicalSecretary</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Midwife</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Nurse</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Security</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">SocialWorker</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Technician</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"><HR></TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD align="center">41</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TH align="center">Department</TH>
+  <TH align="center">Position</TH>
+  <TH align="center">Amount of staff</TH>
+ </TR>
+ <TR>
+  <TD align="center">Reanimation</TD>
+  <TD align="center">&nbsp;Housewife</TD>
+  <TD align="center">6</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;LaboratoryWorker</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Manager</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Pharmacist</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Receptionist</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Researcher</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Stockkeeper</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;VolunterCoordinator</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Cleaner</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Doctor</TD>
+  <TD align="center">4</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternNurse</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Midwife</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Nurse</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Security</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">SocialWorker</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"><HR></TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD align="center">32</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TH align="center">Department</TH>
+  <TH align="center">Position</TH>
+  <TH align="center">Amount of staff</TH>
+ </TR>
+ <TR>
+  <TD align="center">Reanimatology</TD>
+  <TD align="center">&nbsp;Housewife</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;LaboratoryWorker</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Pharmacist</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Researcher</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;Stockkeeper</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">&nbsp;VolunterCoordinator</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">AdminSecretary</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">InternNurse</TD>
+  <TD align="center">3</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">MedicalSecretary</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Security</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">SocialWorker</TD>
+  <TD align="center">1</TD>
+ </TR>
+ <TR>
+  <TD align="center">&nbsp;</TD>
+  <TD align="center">Technician</TD>
+  <TD align="center">2</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"><HR></TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD align="center">17</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+  <TD style="background-color: #FFFFFF">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"><HR></TD>
+ </TR>
+ <TR>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD style="background-color: #FFFFFF"></TD>
+  <TD align="center">475</TD>
+ </TR>
+</TABLE>
+</BODY>
+</HTML>
